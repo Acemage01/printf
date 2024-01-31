@@ -9,5 +9,5 @@ int printc(va_list let);
 int prints(va_list let);
 int _strlen(char *s)
 int _strlenc(const char *s)
-
+int print_37(void);
 #endif
