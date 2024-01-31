@@ -3,7 +3,7 @@
 /**
  * prints - print a string
  * @let: argument
- * Return: length if string
+ * Return: length of string
  */
 
 int prints(va_list let)
