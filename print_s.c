@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * prints - print a string
+ * print_s - print a string
  * @let: argument
  * Return: length of string
  */
 
-int prints(va_list let)
+int print_s(va_list let)
 {
 	char *str;
 	int a;

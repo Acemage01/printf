@@ -5,8 +5,8 @@
 #include <unistd.h>
 
 int _printf(const char *format, ...);
-int printc(va_list let);
-int prints(va_list let);
+int print_c(va_list let);
+int print_s(va_list let);
 
 /**
  * _strlen - finds the length of a string

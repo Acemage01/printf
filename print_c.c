@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * printc - prints a character
+ * print_c - prints a character
  * @let: argument
  * Return: 1
  */
 
-int printc(va_list let)
+int print_c(va_list let)
 {
 	char c
 
