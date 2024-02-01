@@ -2,16 +2,16 @@
 
 /**
  * _strlen - prints the length of a string
- * @s: string
+ * @str: string
  * Return: integer
  */
 
-int _strlen(char *s)
+int _strlen(char *str)
 
 {
 	int a;
 
-	for (c = 0; s[a] != 0; a++)
+	for (c = 0; str[a] != 0; a++)
 		;
 
 	return (a);
@@ -20,16 +20,16 @@ int _strlen(char *s)
 
 /**
  * _strlenc - length of string for constant characters
- * @s: string
+ * @str: string
  * Return: integer
  */
 
-int _strlenc(const char *s)
+int _strlenc(const char *str)
 
 {
 	int a;
 
-	for (a = 0; s[a] != 0; a++)
+	for (a = 0; str[a] != 0; a++)
 		;
 	return (a);
 }
